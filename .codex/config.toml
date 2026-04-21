@@ -1,0 +1,18 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approvals_reviewer = "user"
+[plugins."github@openai-curated"]
+enabled = true
+
+# [projects."/workspaces/misterio"]
+# trust_level = "trusted"
+
+[features]
+memories = true
+
+[memories]
+use_memories = true
+generate_memories = true
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "context-remaining", "five-hour-limit", "used-tokens"]

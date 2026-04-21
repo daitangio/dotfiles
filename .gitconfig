@@ -1,0 +1,11 @@
+[user]
+	email = jj@gioorgi.com
+	name = Giovanni Giorgi
+
+[alias]
+        l = log --decorate --stat=150 --graph
+        jjmerge = merge -s recursive -Xignore-space-at-eol --no-ff  --no-commit
+        # Super graph
+        g = log --all --decorate --oneline --graph
+        co = checkout
+
