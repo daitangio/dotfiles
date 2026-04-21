@@ -1,0 +1,13 @@
+# Disable the startup message
+startup_message off
+
+# Set a large scrollback buffer
+defscrollback 32000
+
+# Always start `screen` with UTF-8 enabled (`screen -U`)
+defutf8 on
+
+hardstatus alwayslastline
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{= w}%Y/%m/%d %0C:%s%a%{g} ]%{W} @%H'
+# hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= w}%?%+Lw%?%? %{g}][%{d}%l%{g}][ %{= w}%Y/%m/%d %0H:%M%{g} ]%{W} @%H'
+
