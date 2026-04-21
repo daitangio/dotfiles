@@ -17,7 +17,7 @@ function doIt() {
 	npm install -g @openai/codex
 	sudo apt install bubblewrap
 
-	source ~/.bash_profile;
+	#source ~/.bash_profile;
 }
 
 
