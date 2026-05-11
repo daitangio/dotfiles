@@ -1,0 +1,5 @@
+brew "node"
+cask "corretto@17"
+cask "kap"
+# Python package manager
+brew "uv"
